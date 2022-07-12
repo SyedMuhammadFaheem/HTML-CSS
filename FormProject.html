@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formStyle
+        {
+            display: block;
+            border:1px #ccc;
+            background-color: white;
+            margin-left:auto;
+            margin-right:auto;
+            width:40%;
+            height: 100%;
+        }
+        .heading
+        {
+            font-size:32px;
+            padding-top:56px;
+            padding-bottom:32px;
+            text-align:center;
+        }
+        .socialIcons
+        {
+            width: 50px;
+            height: 50px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+        .spanwall
+        {
+            background-color: #f2f6ff;
+            text-align: center;
+        }
+        .inputcontainers
+        {
+            width: 100%;
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-top: 0;
+            border-right: 0;
+            border-left: 0;
+            border-bottom: 1px solid #ccc;
+            border-bottom-width:100%;
+        }
+        .inputboxes
+        {
+            
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .submitbox
+        {
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: white;
+            border: 0;
+
+        }
+    </style>
+</head>
+
+<body style="background-color: #f2f6ff;">
+    <form class="formStyle">
+        <h1 class="heading">Register</h1>
+        <div class="spanwall">
+            <img class="socialIcons" src="google.png" alt="Google Icon">
+            <img class="socialIcons" src="facebook.png" alt="Facebook Logo">
+            <img class="socialIcons" src="github.png" alt="Github Logo">
+            <img class="socialIcons" src="linkedin.png" alt="Linkedin Logo">
+        </div>
+        <div class="inputboxes">
+            <input class="inputcontainers" name="Username" type="text" autofocus placeholder="Username">
+            <br><br>
+            <input class="inputcontainers" name="Email"type="email" placeholder="Email"><br><br>
+            <input class="inputcontainers" name="Password" type="password" placeholder="Password"><br><br>
+            <input class="inputcontainers" name="ConfirmPassword" type="password" placeholder="Confirm Password">
+        </div>
+        <div style="text-align: center;">
+            <input class="submitbox" type="submit" >
+        </div>
+    </form>
+    
+</body>
+</html>
