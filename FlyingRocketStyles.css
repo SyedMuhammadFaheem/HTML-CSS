@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    background-image:url(skyvector.png);
+    background-size:cover;
+}
+
+img{
+    width:300px;
+    position:absolute;
+    bottom:24px;
+    left:65%;
+    transform:translateX(-50%);
+    animation:fly 3s ease-in;
+}
+
+@keyframes fly{
+    0%{
+        transform:translate(-50%,0);
+    }
+
+    100%{
+        transform:translate(-50%,-100vh);
+    }
+}
